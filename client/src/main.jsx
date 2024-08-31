@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import IndexPage from './pages/indexPage.jsx';
 import { LoginPage } from './pages/LoginPage.jsx';
+import { Register } from './pages/Register.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />,
+  },
+  {
+    path: "/Register",
+    element: <Register />,
   },
 ]);
 
