@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 button {
-    @apply bg-primary p-2 w-full text-white;
+    @apply bg-primary;
 }
